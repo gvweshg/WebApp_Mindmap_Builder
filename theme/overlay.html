@@ -1,0 +1,23 @@
+<div id="overlay"></div>
+<div id="over_overlay">
+    <div id="overlay_load" class="popup">
+    	<div class="overlay_title">
+            <span>Load Saved File</span>
+            <img src="img/close.png" width="20px;" class="overlay_close" />
+        </div>
+    	<div class="overlay_body">
+        	<p>Please upload saved file. </p>
+            
+            <div class="upload_area">
+                <button>Choose a file</button>
+                <input class="obj_upload" type="file" name="files[]" accept=".sav">
+                <p class="help_str">If you are unsure where your saved file is, check your ‘downloads’ folder.</p>
+                <img id="loading" src="img/loading.gif" style="">
+                <div class="files"></div>
+            </div>
+            <center class="error_log">Please select file!</center>
+            <br />
+            <center><input type="button" class="overlay_add" id="btn_load"  value="Load"/></center>
+        </div>
+    </div>
+</div>

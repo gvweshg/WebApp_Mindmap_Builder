@@ -1,0 +1,119 @@
+#overlay
+{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:99999;
+	background-color:black;
+	opacity:0.7;
+	display:none;
+}
+
+#over_overlay
+{
+	position : fixed; 
+	z-index:109999;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	display:none;
+}
+
+#overlay_image
+{
+	display: block
+}
+
+.popup
+{ 
+	width : 400px;
+	/*min-height: 325px;*/
+	padding-bottom: 10px;
+	border: 3px solid #cccccc;
+	margin: 200px auto;
+	background-color:white;
+}
+
+#loading_area
+{ 
+	display : block;
+	width : 400px;
+	height: 140px;
+	border: 3px solid #cccccc;
+	margin: 200px auto;
+	background-color:white;
+	padding-top: 20px;
+	display: none;
+}
+
+.clear_both 	{clear: both;}
+.overlay_title 	{width : 100%; height : 34px; background:url(../img/overlay_title.png) repeat-x;}
+.overlay_title span {margin-left : 20px; line-height:34px;}
+
+.overlay_mark {margin : 10px; border-bottom : 1px solid #cccccc;}
+.overlay_body p {font-size : 11px; margin-left:30px;}
+
+.overlay_left {margin-left : 30px; float : left; width:100px; font-size:13px; font-weight:bold; line-height:20px;}
+.overlay_right input {width : 230px; border:1px solid gray;}
+.overlay_add {width : 100px;}
+.overlay_close {cursor : pointer; float:right; margin-top:5px; margin-right:10px; }
+
+.upload_area {margin : 15px 30px 10px; width:340px; min-height:80px; border-bottom:1px dotted gray;}
+.upload_area a {font-size : 12px; color:blue; text-decoration:none; margin-left:20px;}
+.upload_area a:hover {text-decoration:underline;}
+
+#url_area 		{ margin-top: 5px; border-bottom: 1px dotted gray; padding-bottom: 10px; margin-bottom: 10px;}
+#url_area span 	{ font-size: 12px; font-weight: bold;}
+#url_area input { border: 1px solid gray; margin-left: 20px;}
+
+.preview_area {margin-left : 30px; overflow : auto; width:340px; height:100px;}
+.preview_area img {width : 200px;}
+
+#loading {float : right; width:24px; display:none;}
+
+#loading_area center {margin-top: 10px;}
+#progress_bar 	{width: 100%; height: 15px; border: 1px solid gray; margin-top: 45px;}
+#complete 		{background-color: #6467f3; height: 13px; margin-top: 1px; width: 30%;}
+
+.overlay_body textarea {width:100%; height: 135px;}
+
+#project_list	{width:150px; margin-left: 10px;}
+#sproject_list	{width:150px; margin-left: 10px;}
+
+#overlay_load 	{height: 250px;}
+#overlay_new 	{height: 250px;}
+
+#btn_bgpalete	{cursor: pointer;}
+
+.colorpicker 	{z-index: 999999;}
+.error_log 		{font-family: arial; font-size: 12px; color: red; display: none;}
+.small_input 	{ width: 75px; margin-right: 10px;}
+
+.overlay_body h5 		{background: url(../img/right_mark.png) no-repeat; font-size: 12px; padding-left: 15px; margin-left: 15px; margin-bottom: 10px; color: gray}
+.overlay_body h5.active {color: blue;}
+.overlay_body h5 input 	{float: left; margin-top: 1px;}
+.overlay_content 		{width: calc(100% - 29px); border-bottom: 1px dotted gray; padding-left: 29px; line-height: 28px;}
+.overlay_content span 	{float: left; font-size: 12px; }
+.overlay_content p 		{float: left; width: 50px; height: 22px; border: 1px solid black; margin-left: 15px; margin-top: 2px;}
+.overlay_content img	{float: left; width: 28px; height: 28px; margin-left: 10px;}
+
+.content_list 			{width: 90%; height: 150px; border: 1px solid gray; margin:0px; padding:10px;margin-bottom: 15px; overflow-x:hidden; overflow-y:auto;}
+.content_list li 		{margin-right: 7px; margin-bottom: 7px; cursor: pointer;}
+.content_list img 		{width: 50px; height: 50px; margin: 0px;}
+.content_list .sel 		{border: 2px solid red; }
+.content_list .sel img {width: 46px; height: 46px;}
+
+.content_part 	{ margin-top: 5px; border-bottom: 1px dotted gray; padding-bottom: 10px; margin-bottom: 10px; margin-left: 20px;}
+.content_part span 	{ font-size: 11px; color: gray;}
+.content_part input[type="file"] { margin-left: 20px; border: 0px none; width: 50%;}
+.content_part input[type="text"] { border: 1px solid gray; margin-left: 20px;}
+.content_part dd 	{ width: 75px; margin: 0px; padding:0px; float: left; font-size: 12px; font-weight: bold; }
+
+.no-border 			{border: 0px none !important;}
+
+.obj_upload 		{width: 90px; overflow: hidden; position: absolute; margin-left: -93px; opacity: 0.01;}
